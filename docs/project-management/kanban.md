@@ -129,7 +129,13 @@ El estado de cada tarea debe mantenerse actualizado en GitHub Projects, de acuer
 
 **Enlace del tablero de GitHub Projects:**
 
-[AGREGAR AQUÍ EL ENLACE REAL DEL TABLERO]
+[Ver tablero Kanban de Queen Blossom](https://github.com/users/reynalizpaulino-jpg/projects/1)
+
+**Repositorio del sistema:**
+
+[Queen Blossom – GitHub](https://github.com/reynalizpaulino-jpg/queenblossom)
+
+El tablero permite consultar el estado de las actividades relacionadas con la documentación, el diseño y las funcionalidades del sistema. Las tareas deberán permanecer en sus respectivas columnas según el avance real del proyecto.
 
 ## 10. Próximas actividades
 
