@@ -1,210 +1,92 @@
-﻿# Seguimiento de Issues – Queen Blossom
+﻿# Seguimiento técnico de Issues – Queen Blossom
 
 ## 1. Introducción
 
-Durante el desarrollo del proyecto Queen Blossom se han utilizado las herramientas de GitHub para organizar las actividades y mantener un seguimiento de las funcionalidades del sistema.
+Durante el desarrollo de Queen Blossom se han utilizado GitHub Issues y GitHub Projects para organizar las tareas, identificar posibles riesgos y dar seguimiento al proyecto.
 
-Los Issues permiten identificar tareas pendientes, posibles riesgos y mejoras que deberán revisarse durante las siguientes etapas de desarrollo.
+Para el cierre técnico de Ingeniería de Software I se seleccionaron cuatro Issues relacionados con funcionalidades importantes, revisión de arquitectura y documentación final.
 
-Para el cierre técnico de Ingeniería de Software I se seleccionan cuatro historias de usuario importantes, relacionadas directamente con los requisitos funcionales establecidos anteriormente.
+## 2. Issues seleccionados
 
-## 2. Objetivo del seguimiento
+### Issue #6. Registro e inicio de sesión
 
-Mantener organizadas las actividades técnicas de Queen Blossom, identificando su prioridad, los criterios necesarios para considerarlas terminadas y los posibles problemas que puedan surgir durante su implementación.
+**Enlace:** https://github.com/reynalizpaulino-jpg/queenblossom/issues/6
 
-## 3. Issues seleccionados
+**Estado:** Abierto.
 
-### Issue 1. Registro e inicio de sesión
+**Prioridad:** Alta.
 
-**Historia de usuario:** HU-02
+**Descripción:** Dar seguimiento al desarrollo del registro e inicio de sesión de los usuarios de Queen Blossom.
 
-**Requisito relacionado:** RF-02
+**Riesgo:** Posibles errores de validación o accesos no autorizados.
 
-**Prioridad:** Alta
+**Acción pendiente:** Implementar y comprobar las funciones de autenticación, validación de datos y protección de contraseñas.
 
-**Tipo:** Funcionalidad y riesgo de seguridad.
+### Issue #3. Carrito de compras
 
-**Descripción:**
+**Enlace:** https://github.com/reynalizpaulino-jpg/queenblossom/issues/3
 
-Este Issue representa el desarrollo del registro e inicio de sesión de los usuarios. Su finalidad es permitir que los clientes accedan de manera segura a sus cuentas dentro de Queen Blossom.
+**Estado:** Abierto. En revisión según GitHub Projects.
 
-**Criterios de aceptación:**
+**Prioridad:** Alta.
 
-- El usuario puede registrarse con los datos obligatorios.
-- El sistema valida la información ingresada.
-- El usuario puede iniciar sesión con credenciales correctas.
-- No se permite el acceso con credenciales incorrectas.
+**Descripción:** Dar seguimiento a la función que permitirá agregar, eliminar y modificar cantidades de productos dentro del carrito.
 
-**Riesgo identificado:**
+**Riesgo:** Errores en cantidades o cálculos del total.
 
-Una validación incorrecta podría permitir accesos no autorizados o generar problemas al registrar usuarios.
+**Acción pendiente:** Verificar los criterios de aceptación y comprobar el funcionamiento cuando se implemente el módulo.
 
-**Seguimiento técnico:**
+### Issue #8. Definición de arquitectura inicial
 
-Se deberá comprobar el manejo seguro de las contraseñas, las validaciones y la protección de las cuentas.
+**Enlace:** https://github.com/reynalizpaulino-jpg/queenblossom/issues/8
 
-**Enlace real del Issue:** [COMPLETAR]
+**Estado:** Abierto.
 
-**Estado actual en GitHub:** [COMPLETAR]
+**Prioridad:** [CONFIRMAR EN GITHUB]
 
-### Issue 2. Gestionar carrito de compras
+**Descripción:** Dar seguimiento a las decisiones relacionadas con la organización técnica del sistema.
 
-**Historia de usuario:** HU-03
+**Riesgo:** Inconsistencias entre la arquitectura documentada y la estructura que se implemente posteriormente.
 
-**Requisito relacionado:** RF-03
+**Acción pendiente:** Revisar que la propuesta de frontend basado en componentes y backend MVC con servicios se mantenga coherente con los modelos UML.
 
-**Prioridad:** Alta
+**Observación:** Existe también el Issue #9 sobre arquitectura inicial, que aparece cerrado. Se conserva el #8 para seguimiento sin modificar su estado.
 
-**Tipo:** Funcionalidad y posible incidencia.
+### Issue #12. Documentación final y ajustes
 
-**Descripción:**
+**Enlace:** https://github.com/reynalizpaulino-jpg/queenblossom/issues/12
 
-Este Issue representa la gestión de los productos seleccionados por el cliente antes de realizar una compra.
+**Estado:** Abierto. Por hacer según la captura anterior del tablero.
 
-El sistema deberá permitir agregar, eliminar y modificar cantidades de productos, actualizando correctamente el importe total del carrito.
+**Prioridad:** Media.
 
-**Criterios de aceptación:**
+**Descripción:** Organizar las evidencias técnicas y completar los ajustes necesarios para el cierre documental.
 
-- Agregar productos al carrito.
-- Eliminar artículos seleccionados.
-- Modificar las cantidades.
-- Actualizar correctamente el importe total.
+**Riesgo:** Entregar información incompleta, enlaces incorrectos o evidencias que no coincidan con el estado del proyecto.
 
-**Riesgo identificado:**
+**Acción pendiente:** Comprobar la documentación publicada, revisar los enlaces, completar las capturas y preparar el informe final en PDF.
 
-Podrían producirse errores al actualizar cantidades o calcular el importe del carrito.
+## 3. Resumen del seguimiento
 
-**Seguimiento técnico:**
-
-Se deberán realizar pruebas con diferentes productos y cantidades para comprobar que los cálculos sean correctos.
-
-**Enlace real del Issue:** [COMPLETAR]
-
-**Estado actual en GitHub:** [COMPLETAR]
-
-### Issue 3. Buscar y filtrar productos
-
-**Historia de usuario:** HU-04
-
-**Requisito relacionado:** RF-04
-
-**Prioridad:** Media
-
-**Tipo:** Funcionalidad y mejora de experiencia de usuario.
-
-**Descripción:**
-
-Este Issue contempla la función de búsqueda y filtrado de productos para facilitar que los clientes encuentren los artículos que necesitan.
-
-**Criterios de aceptación:**
-
-- Buscar productos mediante palabras clave.
-- Aplicar los filtros disponibles.
-- Mostrar resultados relacionados con los criterios seleccionados.
-- Informar cuando no existan coincidencias.
-
-**Riesgo identificado:**
-
-Una búsqueda incorrecta podría presentar resultados que no correspondan con lo solicitado o impedir que los clientes encuentren determinados productos.
-
-**Seguimiento técnico:**
-
-Se deberán comprobar las búsquedas, los filtros y los casos donde no existan resultados.
-
-**Enlace real del Issue:** [COMPLETAR]
-
-**Estado actual en GitHub:** [COMPLETAR]
-
-### Issue 4. Revisar resumen del pedido
-
-**Historia de usuario:** HU-05
-
-**Requisito relacionado:** RF-05
-
-**Prioridad:** Alta
-
-**Tipo:** Funcionalidad y riesgo de inconsistencia de datos.
-
-**Descripción:**
-
-Este Issue contempla la presentación del resumen del pedido antes de confirmar la compra.
-
-Su finalidad es que el cliente pueda verificar los artículos seleccionados, las cantidades y el importe total.
-
-**Criterios de aceptación:**
-
-- Mostrar los artículos del pedido.
-- Presentar las cantidades seleccionadas.
-- Calcular y mostrar correctamente el importe total.
-- Permitir revisar la información antes de confirmar.
-
-**Riesgo identificado:**
-
-Podrían existir diferencias entre los datos del carrito y los importes mostrados en el resumen.
-
-**Seguimiento técnico:**
-
-Se deberá comprobar que el resumen coincida con los productos y cantidades existentes en el carrito.
-
-**Enlace real del Issue:** [COMPLETAR]
-
-**Estado actual en GitHub:** [COMPLETAR]
-
-## 4. Resumen de los Issues
-
-| Historia | Requisito | Prioridad | Tipo de seguimiento |
+| Issue | Prioridad | Estado | Tipo de seguimiento |
 |---|---|---|---|
-| HU-02 | RF-02 | Alta | Seguridad y acceso |
-| HU-03 | RF-03 | Alta | Gestión del carrito |
-| HU-04 | RF-04 | Media | Búsqueda y filtrado |
-| HU-05 | RF-05 | Alta | Validación del pedido |
+| #6 Registro e inicio de sesión | Alta | Abierto | Seguridad |
+| #3 Carrito de compras | Alta | Abierto | Funcionalidad |
+| #8 Arquitectura inicial | Por confirmar | Abierto | Revisión técnica |
+| #12 Documentación final | Media | Abierto | Cierre documental |
 
-## 5. Relación con GitHub Projects
+## 4. Relación con GitHub Projects
 
-Los Issues seleccionados deberán estar vinculados al tablero Kanban de Queen Blossom.
+Los Issues se gestionan mediante el tablero Kanban de Queen Blossom.
 
-Cada actividad deberá ubicarse en la columna correspondiente según su estado real: Backlog, Por hacer, En progreso, En revisión o Finalizado.
+**Tablero:** https://github.com/users/reynalizpaulino-jpg/projects/1
 
-El estado de cada Issue deberá mantenerse actualizado para facilitar la identificación de las tareas pendientes y los avances del proyecto.
+El tablero utiliza las columnas Backlog, Por hacer, En progreso, En revisión y Finalizado.
 
-### Enlaces de seguimiento
+Las tareas deberán actualizarse según el trabajo realmente completado.
 
-**Tablero Kanban:**
+## 5. Conclusión
 
-[Queen Blossom – GitHub Projects](https://github.com/users/reynalizpaulino-jpg/projects/1)
+El seguimiento mediante Issues permite conocer cuáles tareas necesitan atención y cuáles son los principales riesgos de Queen Blossom.
 
-**Listado de Issues:**
-
-[Issues del repositorio Queen Blossom](https://github.com/reynalizpaulino-jpg/queenblossom/issues)
-
-Los Issues seleccionados deberán mantenerse vinculados al tablero para permitir el seguimiento de las tareas y los riesgos técnicos.
-
-Su estado debe reflejar el avance real de cada funcionalidad. Las tareas pendientes de implementación o pruebas deberán permanecer abiertas hasta que se verifique su cumplimiento.
-
-## 6. Control y revisión
-
-Para mantener el seguimiento técnico se revisarán los siguientes aspectos:
-
-- Que los Issues tengan una descripción comprensible.
-- Que sus criterios de aceptación estén definidos.
-- Que las prioridades correspondan con su importancia.
-- Que los estados reflejen el avance real.
-- Que las tareas terminadas cuenten con evidencias suficientes.
-
-Los Issues relacionados con funcionalidades pendientes deberán permanecer abiertos hasta que se compruebe su cumplimiento.
-
-## 7. Estado del seguimiento
-
-Las cuatro historias de usuario seleccionadas cuentan con requisitos y criterios de aceptación documentados.
-
-Su implementación y estado dentro de GitHub deberán comprobarse directamente en el repositorio.
-
-Este documento sirve como referencia para dar seguimiento a las funcionalidades seleccionadas durante las siguientes etapas de Queen Blossom.
-
-## 8. Conclusión
-
-El seguimiento de Issues permite mantener un mejor control de las actividades técnicas de Queen Blossom.
-
-Mediante esta herramienta es posible identificar prioridades, registrar posibles riesgos y comprobar cuáles funciones necesitan atención.
-
-Su relación con GitHub Projects facilita visualizar el avance del trabajo y mantener organizada la continuidad del sistema.
+Los cuatro Issues seleccionados representan aspectos importantes para continuar el desarrollo y completar correctamente la documentación técnica del proyecto.
