@@ -167,6 +167,20 @@ Cada actividad deberá ubicarse en la columna correspondiente según su estado r
 
 El estado de cada Issue deberá mantenerse actualizado para facilitar la identificación de las tareas pendientes y los avances del proyecto.
 
+### Enlaces de seguimiento
+
+**Tablero Kanban:**
+
+[Queen Blossom – GitHub Projects](https://github.com/users/reynalizpaulino-jpg/projects/1)
+
+**Listado de Issues:**
+
+[Issues del repositorio Queen Blossom](https://github.com/reynalizpaulino-jpg/queenblossom/issues)
+
+Los Issues seleccionados deberán mantenerse vinculados al tablero para permitir el seguimiento de las tareas y los riesgos técnicos.
+
+Su estado debe reflejar el avance real de cada funcionalidad. Las tareas pendientes de implementación o pruebas deberán permanecer abiertas hasta que se verifique su cumplimiento.
+
 ## 6. Control y revisión
 
 Para mantener el seguimiento técnico se revisarán los siguientes aspectos:
