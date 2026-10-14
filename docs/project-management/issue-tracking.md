@@ -70,7 +70,7 @@ Para el cierre técnico de Ingeniería de Software I se seleccionaron cuatro Iss
 |---|---|---|---|
 | #6 Registro e inicio de sesión | Alta | Abierto | Seguridad |
 | #3 Carrito de compras | Alta | Abierto | Funcionalidad |
-| #8 Arquitectura inicial | Por confirmar | Abierto | Revisión técnica |
+| #9 Arquitectura inicial | Alta | Abierto | Revisión técnica |
 | #12 Documentación final | Media | Abierto | Cierre documental |
 
 ## 4. Relación con GitHub Projects
