@@ -38,19 +38,17 @@ Para el cierre técnico de Ingeniería de Software I se seleccionaron cuatro Iss
 
 ### Issue #9. Definición de arquitectura inicial
 
-**Enlace:** https://github.com/reynalizpaulino-jpg/queenblossom/issues/8
+**Enlace:** https://github.com/reynalizpaulino-jpg/queenblossom/issues/9
 
 **Estado:** Abierto.
 
 **Prioridad:** Alta.
 
-**Descripción:** Dar seguimiento a las decisiones relacionadas con la organización técnica del sistema.
+**Descripción:** Dar seguimiento a la revisión de la arquitectura inicial de Queen Blossom, verificando la organización del frontend basado en componentes y el backend MVC con servicios.
 
-**Riesgo:** Inconsistencias entre la arquitectura documentada y la estructura que se implemente posteriormente.
+**Riesgo identificado:** Posibles diferencias entre la arquitectura documentada y la estructura que se implemente posteriormente.
 
-**Acción pendiente:** Revisar que la propuesta de frontend basado en componentes y backend MVC con servicios se mantenga coherente con los modelos UML.
-
-**Observación:** Existe también el Issue #9 sobre arquitectura inicial, que aparece cerrado. Se conserva el #8 para seguimiento sin modificar su estado.
+**Acción pendiente:** Comprobar que la implementación futura mantenga coherencia con los documentos de arquitectura y los modelos UML.
 
 ### Issue #12. Documentación final y ajustes
 
