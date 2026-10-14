@@ -117,25 +117,33 @@ Las tecnologías de implementación se presentan como parte del diseño propuest
 
 ## 7. Metodología de trabajo
 
-Para organizar las actividades se seleccionó la metodología ágil Kanban.
+Para organizar las actividades de Queen Blossom se seleccionó la metodología ágil Kanban, utilizando GitHub Projects como herramienta de planificación y seguimiento.
 
-El tablero de GitHub Projects permite visualizar las tareas y dar seguimiento a su avance mediante cinco estados:
+El tablero permite visualizar las tareas y conocer su avance mediante cinco estados:
 
-1. Backlog.
-2. Por hacer.
-3. En progreso.
-4. En revisión.
-5. Finalizado.
+1. **Backlog:** actividades identificadas que todavía no han sido programadas.
+2. **Por hacer:** tareas pendientes de comenzar.
+3. **En progreso:** actividades que se encuentran en desarrollo.
+4. **En revisión:** trabajos realizados que necesitan ser comprobados.
+5. **Finalizado:** actividades completadas y verificadas.
 
-Los Issues se utilizan para documentar historias de usuario, incidencias, riesgos y tareas pendientes.
+Los Issues se utilizan para dar seguimiento a historias de usuario, incidencias, riesgos, mejoras y tareas pendientes del proyecto.
 
-**Documentación relacionada:**
+### Tablero Kanban
+
+[Consultar tablero de Queen Blossom en GitHub Projects](https://github.com/users/reynalizpaulino-jpg/projects/1)
+
+### Seguimiento de Issues
+
+[Consultar los Issues del repositorio](https://github.com/reynalizpaulino-jpg/queenblossom/issues)
+
+### Documentación relacionada
 
 - [Gestión del proyecto mediante Kanban](docs/project-management/kanban.md)
 - [Seguimiento técnico de Issues](docs/project-management/issue-tracking.md)
-- [Consultar los Issues del repositorio](https://github.com/reynalizpaulino-jpg/queenblossom/issues)
+- [Registro de cambios y avances](CHANGELOG.md)
 
-**Tablero de GitHub Projects:** [AGREGAR AQUÍ EL ENLACE REAL DEL TABLERO]
+El estado de cada actividad debe mantenerse actualizado según los avances reales del proyecto. Las funciones todavía no implementadas no deben considerarse finalizadas únicamente porque su documentación esté completa.
 
 ## 8. Documentación del proyecto
 
