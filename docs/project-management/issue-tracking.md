@@ -36,13 +36,13 @@ Para el cierre técnico de Ingeniería de Software I se seleccionaron cuatro Iss
 
 **Acción pendiente:** Verificar los criterios de aceptación y comprobar el funcionamiento cuando se implemente el módulo.
 
-### Issue #8. Definición de arquitectura inicial
+### Issue #9. Definición de arquitectura inicial
 
 **Enlace:** https://github.com/reynalizpaulino-jpg/queenblossom/issues/8
 
 **Estado:** Abierto.
 
-**Prioridad:** [CONFIRMAR EN GITHUB]
+**Prioridad:** Alta.
 
 **Descripción:** Dar seguimiento a las decisiones relacionadas con la organización técnica del sistema.
 
